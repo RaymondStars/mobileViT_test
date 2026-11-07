@@ -1,0 +1,13 @@
+name: mobilevit_test
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pandas
+  - pytorch-gpu
+  - matplotlib
+  - scikit-learn
+  - datasets
+  - torchvision
+  - transformers
+prefix: C:\Users\user\miniconda3\envs\mobilevit_test
