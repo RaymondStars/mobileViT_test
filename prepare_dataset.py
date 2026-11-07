@@ -1,7 +1,6 @@
 import os
 from tqdm import tqdm
 from datasets import load_dataset
-from PIL import Image
 
 print("Installing and loading the ImageNet validation dataset...")
 ds = load_dataset("ILSVRC/imagenet-1k", split="validation", streaming=True)
