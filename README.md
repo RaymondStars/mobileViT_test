@@ -11,7 +11,7 @@
 1. Run the following command in the terminal (replace YOUR_HUGGINGFACE_ACCESS_TOKEN with the actual token)
 ```
 conda env create --file environment.yml
-set HF_TOKEN=YOUR_HUGGINGFACE_ACCESS_TOKEN
+export HF_TOKEN="YOUR_HUGGINGFACE_ACCESS_TOKEN"
 ```
 2. Run prepare_dataset.py to get the validation set
 3. Run huggingface.py for validation, you may change the model name to different models for testing
